@@ -1,0 +1,422 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: rgb(44, 95, 95);
+    color: white;
+}
+.splash {
+    padding-bottom: 100px;
+    background-image: linear-gradient(0deg, rgba(0,255,0,0.4), rgba(255,0,0,0.2)), url("http://placekitten.com/g/1200/700");
+    background-position: center;
+    background-size: cover;
+}
+
+.clearfix:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+.centerMeMotherfucker {
+    margin-top: 100px;
+}
+nav {
+    text-align: right;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    border-color:white;
+}
+.airlink {
+    color: white;
+    border-width: 10px;
+    font-size: 30pt;
+    font-weight: bold;
+    float: left;
+}
+.sectionTabs {
+    display: flex;
+    margin-top: 100px;
+}
+.sectionTabs span {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 130px;
+    height: 20px;
+    text-align: center;
+}
+
+.sectionTabs span.active {
+    background-color: red;
+}
+.form {
+    padding: 10px 10px;
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+}
+.formControl {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 10px;
+    align-items: center;
+}
+.formControl input {
+    flex-grow: 1;
+    margin-left: 10px;
+    height: 100%;
+    border: none;
+}
+.icolor {
+    color: black;
+}
+.button {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 900;
+}
+section.splash footer {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+section.splash footer div {
+    display: inline-block;
+    font-size: 12px;
+}
+section.splash footer div i.fa {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.locationsWrapper, .cruiseWrapper, .customerWrapper {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 30px 0;
+}
+.locationsWrapper span {
+    margin-bottom: 10px;
+}
+.center {
+    width: 80%;
+    margin: auto;
+}
+.locations:not(:last-child) {
+    margin-bottom: 20px;
+}
+.sectionTitle {
+    margin-bottom: 30px;
+}
+.sectionTitle .explore {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+.sectionTitle .explore h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: black;
+}
+.sectionTitle .explore .link {
+    color: hotpink;
+    text-decoration: none;
+}
+.sectionTitle .explore .link:hover {
+    text-decoration: underline;
+}
+.imageWrapper {
+    display: flex;
+
+}
+.card {
+    width: 300px;
+    margin-right: 20px;
+}
+.card h5 {
+    margin: 3px auto;
+    color: grey;
+    font-size: 10px;
+}
+.card p {
+    font-size: 10px;
+}
+.picture {
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.card .description {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.card .price {
+    font-size: 12px;
+    display: block;
+    margin: 1px auto;
+}
+.card .rating, .cardPackages .rating {
+    color: hotpink;
+    font-size: 12px;
+}
+.card .reviewNumbers {
+    font-size: 12px;
+}
+
+.splashHoneymoon {
+    background-image: url("http://placekitten.com/g/800/500");
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 230px;
+}
+.honeymoon {
+    width: 80%;
+    margin: auto;
+}
+.honeymoon h3 {
+    margin-top: auto;
+    margin-bottom: 9px;
+}
+.honeymoon span.book {
+    font-size: 12px;
+}
+.buttonHoneymoon {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900px; 
+    padding: 10px;
+    display: block;
+    margin-top: 30px;
+}
+.packageWrapper {
+    background-color: white;
+}
+.packageWrapper .overlapper {
+    display: block;
+    margin: -100px auto 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+}
+
+.overlapper .picture {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.overlapper span {
+    color: black;
+    text-align: left;
+}
+.picture .countries {
+    display: block;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+}
+.picture .places {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.marginmeMotherfucker {
+    margin-top: 25px;
+}
+.imageWrapperPackages {
+    display: block;
+    white-space: nowrap;
+
+}
+.cardPackages  {
+    display: inline-flex;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+    margin-right: 20px;
+    padding: 20px 20px;
+    width: 620px;
+    box-sizing: border-box;
+
+}
+.cardPackages  .picture {
+    width: 310px;
+    height: 150px;
+    margin-right: 10px;
+
+}
+.descriptionPackages {
+    color: black;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.descriptionPackages .countriesPackages, .sumary {
+    color: grey;
+    font-size: 12px;
+}
+.descriptionPackages .rating {
+    float: right;
+}
+.descriptionPackages .visit {
+    font-weight: bold;
+    font-size: 20px;
+}
+.descriptionPackages .period {
+    display:block;
+    color: hotpink;
+    font-size: 14px;
+}
+.descriptionPackages .sumary {
+    display: block;
+    font-size: 16px;
+
+}
+.aedWrapper .aedWrapperDescription {
+    display: inline-block;
+}
+.aedWrapper .aedWrapperDescription .aed {
+    font-size: 16px;
+    font-weight: bold;
+}
+.aedWrapper .aedWrapperDescription .services {
+    color: grey;
+    font-size: 10px;
+}
+.aedWrapper .button {
+    vertical-align: top;
+    float: right;
+}
+.cruiseDetails {
+    display: flex;
+    justify-content: space-between;
+}
+.iconsWrapper {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: 320px;
+}
+.iconsWrapper .icons, .iconsWrapper .option {
+    padding-bottom: 20px;
+}
+.iconsWrapper .icons {
+    display: inline-block;
+}
+.iconsWrapper .option {
+    font-size: 20px;
+}
+.warehouseWrapper {
+    background-color: #2fc5d3;
+    padding: 20px 0 150px 0px;
+}
+.warehouseDescription h3 {
+    margin-bottom: 8px;
+}
+.warehouseDescription h4 {
+    margin-top: 0px;
+}
+.reviewsContainer {
+    display: flex;;
+}
+.review {
+    margin-right: 20px;
+    background-color: white;
+    color: #666666;
+    position: relative;
+    padding: 20px 20px;
+}
+.review:after {
+    content:"\"";
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-family: 'verdana',serif;
+    font-size: 70px;
+}
+.review:nth-child(2n) {
+    background-color: #eeeeee;
+    color: black;
+}
+.customerWrapper .review {
+    display: flex;
+    width: 50%;
+}
+.review .personPicture {
+    margin-right: 10px;
+}
+.review .personPicture img {
+    border-radius: 50%;
+}
+.review .name {
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.review .job {
+    padding-bottom: 20px;
+}
+.inTouchWrapper {
+    background-color: #303a3c;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.inTouch {
+    display: flex;
+    justify-content: flex-end;
+}
+.inTouchDescription {
+    margin-right: 60px;
+}
+.subscribe .contact input {
+    padding: 5px 180px 5px 10px;
+}
+.inTouch .inTouchDetail {
+    padding-bottom: 30px;
+}
+.inTouchIcons i.fa {
+    margin-right: 10px;
+}
+.inTouch .inTouchMargin {
+    padding-bottom: 20px;
+}
+.inTouchDescription .inTouchPhone {
+    padding-bottom: 40px;
+}
+
