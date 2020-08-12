@@ -56,10 +56,12 @@ nav ul li a:hover {
     font-weight: bold;
     float: left;
 }
+
 .sectionTabs {
     display: flex;
     margin-top: 100px;
 }
+
 .sectionTabs span {
     display: inline-block;
     padding: 10px 10px;
@@ -72,27 +74,32 @@ nav ul li a:hover {
 .sectionTabs span.active {
     background-color: red;
 }
+
 .form {
     padding: 10px 10px;
     background-color:white;
     display:flex;
     justify-content: space-between;
 }
+
 .formControl {
     display: flex;
     flex-grow: 1;
     margin-right: 10px;
     align-items: center;
 }
+
 .formControl input {
     flex-grow: 1;
     margin-left: 10px;
     height: 100%;
     border: none;
 }
+
 .icolor {
     color: black;
 }
+
 .button {
     color: white;
     background-color: red;
@@ -101,6 +108,7 @@ nav ul li a:hover {
     border: none;
     font-weight: 900;
 }
+
 section.splash footer {
     display: flex;
     margin-top: 150px;

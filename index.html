@@ -6,6 +6,7 @@
     <title>My first project</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="app.js"></script>
 </head>
 <body>
 <section class=splash>
@@ -23,11 +24,12 @@
         <h1>Welcome to aircat</h1>
         <h3>You're one step closer to petting a great kitten</h3>
         <div class="sectionTabs">
-            <span class="active"><i class="fa fa-bed" aria-hidden="true"></i> Cats in bed</span>
-            <span><i class="fa fa-plane" aria-hidden="true"></i> Fly with cats</span>
-            <span><i class="fa fa-car" aria-hidden="true"></i> Kitten rentals</span>
+            <span class="active" data-target="cats" data-tabgroup-name="mainTabs"><i class="fa fa-bed" aria-hidden="true"></i> Cats in bed</span>
+            <span data-target="fly" data-tabgroup-name="mainTabs"><i class="fa fa-plane" aria-hidden="true"></i> Fly with cats</span>
+            <span data-target="rentals" data-tabgroup-name="mainTabs"><i class="fa fa-car" aria-hidden="true"></i> Kitten rentals</span>
+            <div class="dragg">Drag-n-drop</div>
         </div>
-        <div>
+        <div class="panel" id="cats">
             <form>
                 <div class="form">
                     <div class="formControl">
@@ -48,6 +50,49 @@
                 </div>
             </form>
         </div>
+        <div class="panel" id="fly">
+            <form>
+                <div class="form">
+                    <div class="formControl">
+                        <label for="location" class="icolor"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+                        <input type="text" name="location" id="location" placeholder="Enter your fly location"/>
+                    </div>
+                    <div class="formControl">
+                        <label for="checkInOut" class="icolor"><i class="fa fa-id-card-o"
+                                                                  aria-hidden="true"></i></label>
+                        <input type="text" name="checkInOut" id="checkInOut" placeholder="Check-in/Check-out date"/>
+                    </div>
+                    <div class="formControl">
+                        <label for="guests" class="icolor"><i class="fa fa-user-o" aria-hidden="true"></i></label>
+                        <input type="text" name="guests" id="guests" placeholder="Select Guests, Rooms"/>
+                    </div>
+
+                    <button type="button" class="button">BOOK NOW</button>
+                </div>
+            </form>
+        </div>
+        <div class="panel" id="rentals">
+            <form>
+                <div class="form">
+                    <div class="formControl">
+                        <label for="location" class="icolor"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+                        <input type="text" name="location" id="location" placeholder="Enter your rental location"/>
+                    </div>
+                    <div class="formControl">
+                        <label for="checkInOut" class="icolor"><i class="fa fa-id-card-o"
+                                                                  aria-hidden="true"></i></label>
+                        <input type="text" name="checkInOut" id="checkInOut" placeholder="Check-in/Check-out date"/>
+                    </div>
+                    <div class="formControl">
+                        <label for="guests" class="icolor"><i class="fa fa-user-o" aria-hidden="true"></i></label>
+                        <input type="text" name="guests" id="guests" placeholder="Select Guests, Rooms"/>
+                    </div>
+
+                    <button type="button" class="button">BOOK NOW</button>
+                </div>
+            </form>
+        </div>
+        <div class="drag">Drag-n-drop kittens</div>
         <footer>
             <div><i class="fa fa-2x fa-plane" aria-hidden="true"></i> Over 500 cat breeds</div>
             <div><i class="fa fa-2x fa-globe" aria-hidden="true"></i> More than 76,541 Destinations</div>
